@@ -1,0 +1,446 @@
+/* Colores
+#ffa467
+#f7af80
+#FEDEC8
+#c9936e
+#404040
+#db8c58 */
+
+
+/* ---------------------------------Estilo html general------------------------------------ */
+
+::-webkit-scrollbar {display: none;}
+
+html {
+    font-size: 18px; 
+    font-family: 'Didact Gothic', sans-serif;
+    overflow: hidden;
+}
+
+p {
+    font-size: 18px; 
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    list-style:none;
+} 
+
+/* -------------------------------------ENCABEZADO------------------------------------------- */
+
+.EncabezadoStyle{
+    background-color: #ffce9e;
+    position:absolute;
+    top:0px; left:0px;
+    width: 1343px;
+    width: 100%;
+    height: 60px;
+}
+
+.NombreStyle {
+    background-color:  #ffce9e;
+    font-size: 27px; 
+    font-family: 'Alex Brush', cursive;
+    /* font-weight: bold; */
+    position:absolute;
+    top:50%; left:10px;
+    margin-top: -15px;
+    outline:none;
+    border: none;
+}
+ 
+/*-----------Boton búsqueda--------------- */
+
+.BusquedaStyle{
+    position: absolute;
+    top:20px; right:45px;
+    border: none;
+    font-family: 'Didact Gothic', sans-serif;
+    outline:none;
+}
+
+.LupaStyle{
+    position: absolute;
+    top:20px; right:20px;
+    border: none;
+    width:20px;
+    height: 20px;
+    outline:none;
+}
+
+/* -------------------------------------ORGANIZADOR------------------------------------------- */
+
+.OrganizadorStyle{
+    background-color:  #ffe6c6;
+    position: absolute;
+    top:60px; left:0px;
+    width:1343px;
+    width: 100%;
+    height:40px;
+}
+
+/*-----------Botones principales--------------- */
+
+.OrganizarPorStyle{
+    font-display: center;
+    font-family: 'Didact Gothic', sans-serif;
+    position:relative;
+    top:0px; left:40px;
+    height:40px;
+}
+
+.OrganizarTituloStyle{
+    background-color: #ffe6c6;
+    border-radius: 0;
+    font-weight: bold;
+    width: 90px;
+    border: none;
+    outline:none;
+    height: 30px;
+    color: #fff;
+    font-family: 'Didact Gothic', sans-serif;
+    position:absolute;
+    top:0px; left:182px;
+    height:40px;
+    color: black;
+}
+
+.OrganizarTituloStyle:hover {
+    background-color: #c0a581 !important;
+}
+
+.OrganizarAutorStyle{
+    background-color: #ffe6c6;
+    border-radius: 0;
+    font-weight: bold;
+    width: 90px;
+    border: none;
+    outline:none;
+    height: 30px;
+    color: #fff;
+    font-family: 'Didact Gothic', sans-serif;
+    position:absolute;
+    top:0px; left:276px;
+    height:40px;
+    color: black;
+    
+}
+
+.OrganizarAutorStyle:hover {
+    background-color: #c0a581 !important;
+}
+
+.OrganizarAñoStyle{
+    background-color: #ffe6c6;
+    border-radius: 0;
+    font-weight: bold;
+    width: 90px;
+    border: none;
+    outline:none;
+    height: 30px;
+    color: #fff;
+    font-family: 'Didact Gothic', sans-serif;
+    position:absolute;
+    top:0px; left:370px;
+    height:40px;
+    color: black;   
+}
+
+.OrganizarAñoStyle:hover {
+    background-color: #c0a581 !important;
+}
+
+/*-----------Desplegables nivel 1--------------- */
+
+.OrdenTitulo{
+    position: absolute !important;
+    top:84px; left: 142px;
+}
+
+.OrdenTitulo li input{
+    background-color: #ffe6c6;
+    border-radius: 0;
+    font-weight: bold;
+    width: 90px;
+    border: none;
+    height: 30px;
+    color: #fff;
+    font-family: 'Didact Gothic', sans-serif;
+    height:40px;
+    color: black;
+}
+
+.OrdenAutor{
+    position: absolute;
+    top:84px; left: 236px;
+}
+
+.OrdenAutor li input{
+    background-color: #ffe6c6;
+    border-radius: 0;
+    font-weight: bold;
+    width: 90px;
+    border: none;
+    height: 30px;
+    color: #fff;
+    font-family: 'Didact Gothic', sans-serif;
+    height:40px;
+    color: black;
+}
+
+.OrdenAño{
+    position: absolute;
+    top:84px; left: 330px;
+}
+
+.OrdenAño li input{
+    background-color: #ffe6c6;
+    border-radius: 0;
+    font-weight: bold;
+    width: 90px;
+    border: none;
+    height: 30px;
+    color: #fff;
+    font-family: 'Didact Gothic', sans-serif;
+    height:40px;
+    color: black;
+}
+
+/*-----------Desplegables nivel 2--------------- */
+
+/* -------------------------------------CATEGORIAS------------------------------------------- */
+
+.CategoriasStyle{
+    font-size: 18px; 
+    font-family: 'Didact Gothic', sans-serif;
+    position:relative;
+    top:90px; left:-10px;
+    width: 15%;
+    background-color:  #ffe6c6;
+    width: 170px;
+    height: 600px;
+    padding-right: 10px;
+    display:block;
+    overflow: scroll;
+}
+
+/*-----------Etiquetas--------------- */
+
+.BotonEtiquetaStyle {
+    background-color: #ffe6c6;
+    border-radius: 0;
+    font-weight: bold;
+    width: 180px;
+    border: none;
+    outline:none;
+    height: 30px;
+    color: #fff;
+    font-family: 'Didact Gothic', sans-serif;
+    position:relative;
+    top:-16px; left:-40px;
+    color: black;
+}
+
+.BotonEtiquetaStyle:hover {
+    background-color: #c0a581 !important;
+}
+
+
+/* -------------------------------------ESCAPARATE------------------------------------------- */
+
+.EscaparateStyle{
+    position: absolute;
+    background-color: white;
+    top:110px; left:190px;
+    width: 50%;
+    width: 1150px;
+    height: 550px;
+    padding-left: 10px; 
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.DivLibrosCategoriaStyle{
+    position: absolute;
+    background-color: white;
+    top:110px; left:190px;
+    width: 50%;
+    width: 1150px;
+    height: 550px;
+    padding-left: 10px; 
+    overflow: scroll;
+    overflow-x: hidden;
+    display: none;
+}
+
+.SubDivLibrosCategoriaStyle{
+    position: absolute;
+    background-color: white;
+    top:0px; left:0px;
+    width: 50%;
+    width: 1150px;
+    height: 550px;
+    padding-left: 10px; 
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.LibroStyle{
+    padding-left: 15px;
+    padding-top: 15px; 
+    outline:none;
+}
+
+/* -------------------------------------DATOS LIBRO------------------------------------------- */
+
+/*-----------OPCION 2 HORIZONTAL--------------- */
+
+.DatosLibroStyle{
+    background-color: #ffe6c6;
+    border-width: 10px;
+    border-color: #B3B3B3;
+    width:1000px;
+    height: 650px;
+    position: absolute;
+    top: 50%; left:50%;
+    margin-left:-500px;
+    margin-top:-325px;
+    display:none;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+/*-----------Divs interiores--------------- */
+
+.DivFichaStyle{
+    background-color: #ffe6c6;
+    width:400px;
+    height: 510px;
+    position: absolute;
+    top: 25px; left:0px;
+}
+
+.DivSinopsisStyle{
+    background-color:#ffe6c6;
+    width:600px;
+    height: 625px;
+    position: absolute;
+    top: 25px; left:450px;
+    margin-right: 20px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.DivEtiquetasStyle{
+    background-color: #ffe6c6;
+    width:400px;
+    height: 115px;
+    position: absolute;
+    top: 510px; left:0px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+/*-----------Elementos interiores Divs--------------- */
+
+.PortadaGrandeStyle{
+    position:absolute;
+    top:0px; left:50%;
+    margin-left: -152px;
+    justify-content: center;
+}
+
+.TituloStyle{
+    font-size: 24px; 
+    font-family: 'Didact Gothic', sans-serif;
+    width:100%;
+    position:absolute;
+    top:20px; left:50%;
+    margin-left: -320px;
+    justify-content: center;
+    text-align: center;
+}
+
+.AutorStyle{
+    font-size: 18px; 
+    font-family: 'Didact Gothic', sans-serif;
+    width:100%;
+    position:absolute;
+    top:50px; left:50%;
+    margin-left: -320px;
+    justify-content: center;
+    text-align: center;
+}
+
+.SagaStyle{
+    font-size: 18px; 
+    font-family: 'Didact Gothic', sans-serif;
+    width:100%;
+    position:absolute;
+    top:14%; left:50%; 
+    margin-left: -320px;
+    justify-content: center;
+    text-align: center;
+}
+
+.NumPagStyle{
+    font-size: 18px; 
+    font-family: 'Didact Gothic', sans-serif;
+    width:100%; left:50%;
+    position:absolute;
+    top:18%;  
+    margin-left: -320px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.SinopsisStyle{
+    font-size: 18px; 
+    font-family: 'Didact Gothic', sans-serif;
+    width:80%;
+    height: 380px;
+    position:absolute;
+    top:140px; left:50%;
+    margin-left: -280px;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+.CheckboxStyle {
+    font-size: 18px; 
+    font-family: 'Didact Gothic', sans-serif;
+    width:117px; 
+    /* height: 20px; */
+    position:relative;
+    top:0px; left:48px;
+
+    background-color: #ffe6c6;
+    border-radius: 0;
+    border: none;
+    outline:none;
+    font-family: 'Didact Gothic', sans-serif;
+    color: black;
+}
+
+.CheckboxStyle:hover {
+    background-color: #c0a581 !important;
+}
+
+/*-----------elementos interiores--------------- */
+.BotonCerrarStyle{
+    outline:none;
+    width:15px;
+    height: 15px;
+    position: absolute;
+    top: 5px; right: 5px;
+}

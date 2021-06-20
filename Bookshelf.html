@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> Bookshelf</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">  
+</head>
+<body>
+    
+    <div class="EncabezadoStyle" id="Encabezado">
+        <input type="button" id="Nombre" class="NombreStyle" value="Bookshelf: tu estantería personal">
+        <input class="BusquedaStyle" id="Busqueda" value="Buscar">
+        <input type="image" class="LupaStyle" id="Lupa" src="lupaFInal.png">
+    </div>
+
+    <div class="OrganizadorStyle" id="Organizador">      
+        <label class="OrganizarPorStyle" id="OrganizarPor">Organizar por:</label>
+        <input type="button" class="OrganizarTituloStyle" id="OrganizarTitulo" value="Titulo">
+        <input type="button" class="OrganizarAutorStyle" id="OrganizarAutor" value="Autor">
+        <input type="button" class="OrganizarAñoStyle" id="OrganizarAño" value="Año">
+    </div>
+
+    <div class="CategoriasStyle" id="Categorias">
+        <nav class="menu">
+            <ul id="CategoriasBotones"></ul>
+        </nav>
+    </div>
+
+    <div class="EscaparateStyle", id="Escaparate"></div>
+    <div class="DivLibrosCategoriaStyle", id="DivLibrosCategoria"></div> 
+
+    <div class="MenuDesplegableStyle" id="MenuDesplegable">
+        <ul class="OrdenTitulo" id="SubMenuTitulo" style="display: none;">
+            <li><input type="button" value="Titulo A-Z"></li>
+            <li><input type="button" value="Titulo Z-A"></li>
+        </ul>
+
+        <ul class="OrdenAutor"id="SubMenuAutor" style="display: none;">
+            <li><input type="button" value="Nombre"></li>
+            <li><input type="button" value="Apellido"></li>
+        </ul>
+
+        <ul class="OrdenAño"id="SubMenuAño" style="display: none;">
+            <li><input type="button" value="2014"></li>
+            <li><input type="button" value="2015"></li>
+            <li><input type="button" value="2016"></li>
+            <li><input type="button" value="2017"></li>
+            <li><input type="button" value="2018"></li>
+            <li><input type="button" value="2019"></li>
+            <li><input type="button" value="2020"></li>
+        </ul>
+    </div>
+
+    <div id="DatosLibro" class="DatosLibroStyle"></div>
+
+    <script src="myscript.js"></script>
+
+</body>
+</html>
